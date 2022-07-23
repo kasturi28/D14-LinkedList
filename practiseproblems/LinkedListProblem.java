@@ -19,12 +19,25 @@ public class LinkedListProblem {
 		int n1 = scanner.nextInt();
 		int n2 = scanner.nextInt();
 		int n3 = scanner.nextInt();
-
+		
 		/*
-		 * Adding elements to list & then printing
+		 * Adding three numbers to create list
+		 * Printing the list
+		 */
+		
+		//list.addFirst(n1);
+		//list.addFirst(n2);
+		//list.addFirst(n3);
+
+		//System.out.println(list);
+
+		
+		/*
+		 * Adding last element to list at first & then added other two.
+		 * Printing the list
 		 */
 
-		list.addFirst(n1);
+		list.addLast(n1);
 		list.addFirst(n2);
 		list.addFirst(n3);
 
