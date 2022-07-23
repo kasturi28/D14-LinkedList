@@ -44,6 +44,10 @@ public class LinkedListProblem {
 		/*
 		*Added the first element & appending the other two
 		*Printing the list
+		*removing first & last element
+		*printing the list
+		*adding first and last element
+		*printing the list
 		*/
 		
 		
