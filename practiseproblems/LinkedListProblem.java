@@ -57,15 +57,20 @@ public class LinkedListProblem {
 
 		System.out.println(list);
 		
-		list.removeFirst();
+		//list.removeFirst();
+		//System.out.println(list);
+		
+		//list.removeLast();
+		//System.out.println(list);
+		
+		//list.addFirst(n1);
+		//list.addLast(n3);
+		//System.out.println(list);
+		
+		list.pop();
 		System.out.println(list);
 		
-		list.removeLast();
-		System.out.println(list);
 		
-		list.addFirst(n1);
-		list.addLast(n3);
-		System.out.println(list);
 
 	}
 }
