@@ -47,7 +47,11 @@ public class LinkedListProblem {
 		*removing first & last element
 		*printing the list
 		*adding first and last element
+		*using pop method
+		*removing last element
 		*printing the list
+		*defining index variable
+		*printing index of the 30
 		*/
 		
 		
@@ -70,8 +74,10 @@ public class LinkedListProblem {
 		//list.pop();
 		//System.out.println(list);
 		
-		list.removeLast();
-		System.out.println(list);
+		//list.removeLast();
+		//System.out.println(list);
 
+		int index = list.indexOf(30);
+		System.out.println("Index of the number = "+index);
 	}
 }
