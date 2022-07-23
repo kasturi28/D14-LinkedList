@@ -77,7 +77,23 @@ public class LinkedListProblem {
 		//list.removeLast();
 		//System.out.println(list);
 
-		int index = list.indexOf(30);
-		System.out.println("Index of the number = "+index);
+		//int index = list.indexOf(30);
+		//System.out.println("Index of the number = "+index);
+		
+		/*
+		 * taking fourth number from the user
+		 * removing the last element
+		 * adding the fourth number
+		 * adding the last element
+		 * printing the list
+		 */
+		
+		System.out.println("Enter forth number....");
+		int n4 = scanner.nextInt();
+		
+		list.removeLast();
+		list.add(n4);
+		list.addLast(n3);
+		System.out.println(list);
 	}
 }
