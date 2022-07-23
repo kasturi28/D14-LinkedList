@@ -52,6 +52,16 @@ public class LinkedListProblem {
 		list.addLast(n3);
 
 		System.out.println(list);
+		
+		list.removeFirst();
+		System.out.println(list);
+		
+		list.removeLast();
+		System.out.println(list);
+		
+		list.addFirst(n1);
+		list.addLast(n3);
+		System.out.println(list);
 
 	}
 }
