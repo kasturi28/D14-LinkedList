@@ -40,60 +40,63 @@ public class LinkedListProblem {
 		// list.addFirst(n3);
 
 		// System.out.println(list);
-		
+
 		/*
-		*Added the first element & appending the other two
-		*Printing the list
-		*removing first & last element
-		*printing the list
-		*adding first and last element
-		*using pop method
-		*removing last element
-		*printing the list
-		*defining index variable
-		*printing index of the 30
-		*/
-		
-		
+		 * Added the first element & appending the other two Printing the list removing
+		 * first & last element printing the list adding first and last element using
+		 * pop method removing last element printing the list defining index variable
+		 * printing index of the 30
+		 */
+
 		list.addFirst(n1);
 		list.addLast(n2);
 		list.addLast(n3);
 
 		System.out.println(list);
-		
-		//list.removeFirst();
-		//System.out.println(list);
-		
-		//list.removeLast();
-		//System.out.println(list);
-		
-		//list.addFirst(n1);
-		//list.addLast(n3);
-		//System.out.println(list);
-		
-		//list.pop();
-		//System.out.println(list);
-		
-		//list.removeLast();
-		//System.out.println(list);
 
-		//int index = list.indexOf(30);
-		//System.out.println("Index of the number = "+index);
-		
+		// list.removeFirst();
+		// System.out.println(list);
+
+		// list.removeLast();
+		// System.out.println(list);
+
+		// list.addFirst(n1);
+		// list.addLast(n3);
+		// System.out.println(list);
+
+		// list.pop();
+		// System.out.println(list);
+
+		// list.removeLast();
+		// System.out.println(list);
+
+		// int index = list.indexOf(30);
+		// System.out.println("Index of the number = "+index);
+
 		/*
-		 * taking fourth number from the user
-		 * removing the last element
-		 * adding the fourth number
-		 * adding the last element
-		 * printing the list
+		 * taking fourth number from the user removing the last element adding the
+		 * fourth number adding the last element printing the list
 		 */
-		
+
 		System.out.println("Enter forth number....");
 		int n4 = scanner.nextInt();
-		
+
 		list.removeLast();
 		list.add(n4);
 		list.addLast(n3);
 		System.out.println(list);
+
+		/*
+		 * removing last 2 elements printing the list adding the last element printing
+		 * the list
+		 */
+
+		list.removeLast();
+		System.out.println(list);
+		list.removeLast();
+		System.out.println(list);
+		list.addLast(n3);
+		System.out.println(list);
+
 	}
 }
