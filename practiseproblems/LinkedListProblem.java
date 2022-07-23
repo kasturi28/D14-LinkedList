@@ -67,10 +67,11 @@ public class LinkedListProblem {
 		//list.addLast(n3);
 		//System.out.println(list);
 		
-		list.pop();
+		//list.pop();
+		//System.out.println(list);
+		
+		list.removeLast();
 		System.out.println(list);
-		
-		
 
 	}
 }
